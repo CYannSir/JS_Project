@@ -9,6 +9,10 @@
             background-color:skyblue;
         }
 
+.none {
+            background-color: none;
+    }
+
 .actor  { position: absolute;  background: blue; }
 
 .map {
