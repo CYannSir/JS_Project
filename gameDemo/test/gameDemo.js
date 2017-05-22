@@ -24,11 +24,11 @@ function Level(plan) {
       if (Actor)
         this.actors.push(new Actor(new Vector(x, y), ch));
       else if (ch == "x")
-        fieldType = "grass ";
+        fieldType = "material grass ";
       else if (ch == "!")
-        fieldType = "ice ";
+        fieldType = "material ice ";
       else if (ch == " ")
-        fieldType = "none";
+        fieldType = "material none ";
       
       gridLine.push(fieldType);
     }

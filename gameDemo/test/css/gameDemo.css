@@ -2,22 +2,12 @@
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.grass {
-            background-color:lightgreen;
-        }
-.ice {
-            background-color:skyblue;
-        }
 
-.none {
-            background-color: none;
-    }
 
 .actor  { position: absolute;  background: blue; }
 
 .map {
             position: relative;
-            overflow: hidden;
             max-width: 1920px;
             max-height: 1080px;
             bottom: 0;
