@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="purple">
+    <label for = "purple">Make this page purple</label>
+    <script>
+        var checkbox = document.querySelector("#purple");
+        checkbox.addEventListener("change",function(){
+            document.body.style.background =checkbox.checked?"blue":"";
+        });
+    </script>
+</body>
+</body>
+</html>
